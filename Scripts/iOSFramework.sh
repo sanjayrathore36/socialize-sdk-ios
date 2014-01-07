@@ -76,7 +76,7 @@ lipo \
 # header files and the plist file
 echo "Framework: Copying assets into current version..."
 cp Socialize/*.h Socialize-noarc/*.h $FRAMEWORK_DIR/Headers/
-rsync -avzlH Socialize/Resources/ $FRAMEWORK_BUILD_PATH/Resources
+rsync -avzlH Resources/ $FRAMEWORK_BUILD_PATH/Resources
 
 #cp Framework.plist $FRAMEWORK_DIR/Resources/Info.plist
 
