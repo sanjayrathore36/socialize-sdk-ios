@@ -18,6 +18,8 @@ Pod::Spec.new do |s|
       core_no_arc.source_files = 'Socialize-noarc/**/*.{h,m}'
       core_no_arc.requires_arc    = false
       core_no_arc.dependency 'SZFacebook'
+      core_no_arc.dependency 'SZBlocksKit'
+      core_no_arc.dependency 'SZJSONKit'
     end
   end
 

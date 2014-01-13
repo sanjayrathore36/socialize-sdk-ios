@@ -5,6 +5,7 @@ xcodeproj 'Socialize.xcodeproj'
 link_with 'TestApp'
 pod 'SZFacebook', :path => './ThirdParty/facebook-ios-sdk'
 pod 'SZBlocksKit', :path => './ThirdParty/BlocksKit/SZBlocksKit.podspec'
+pod 'SZJSONKit', :path => './ThirdParty/JSONKit/SZJSONKit.podspec'
 pod 'Socialize', :path => '.'
 
 #copy resources from Loopy to include in framework
