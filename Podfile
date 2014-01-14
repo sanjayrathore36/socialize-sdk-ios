@@ -6,11 +6,5 @@ link_with 'TestApp'
 pod 'SZFacebook', :path => './ThirdParty/facebook-ios-sdk'
 pod 'SZBlocksKit', :path => './ThirdParty/BlocksKit/SZBlocksKit.podspec'
 pod 'SZJSONKit', :path => './ThirdParty/JSONKit/SZJSONKit.podspec'
+pod 'SZOAuthConsumer', :path => './ThirdParty/OAuthConsumer/SZOAuthConsumer.podspec'
 pod 'Socialize', :path => '.'
-
-#copy resources from Loopy to include in framework
-#post_install do | installer |
-#  require 'fileutils'
-#  FileUtils.cp_r(Dir['Pods/Loopy/Loopy/Resources/*'], 'Socialize/Resources', :remove_destination => true)
-#  FileUtils.cp_r('Pods/Loopy/Loopy/LoopyApiInfo.plist', 'Socialize/Resources', :remove_destination => true)
-#end
