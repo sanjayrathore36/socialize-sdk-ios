@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
       core_no_arc.dependency 'SZFacebook'
       core_no_arc.dependency 'SZBlocksKit'
       core_no_arc.dependency 'SZJSONKit'
+      core_no_arc.dependency 'SZOAuthConsumer'
+      core_no_arc.dependency 'Loopy'
     end
   end
 
