@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		0F29C2D0B5034A2AB80E13CB /* libPods-loopy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8039E7904742A0BB2B821E /* libPods-loopy.a */; };
 		2C698F3D1817398B003643B0 /* SZLinkDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB845B1815ECEB00790B5F /* SZLinkDialogView.m */; };
 		2C698F52181739C3003643B0 /* SZLinkDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB845B1815ECEB00790B5F /* SZLinkDialogView.m */; };
 		2CAB845C1815ECEB00790B5F /* SZLinkDialogView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB845B1815ECEB00790B5F /* SZLinkDialogView.m */; };
@@ -1266,6 +1267,7 @@
 		AAF5808D16BC6ABB0007BE58 /* libGHUnitIOSSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AADFBFE216B9FB7400291167 /* libGHUnitIOSSimulator.a */; };
 		AAF580EE16BC99610007BE58 /* libGHUnitIOSSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AADFBFE216B9FB7400291167 /* libGHUnitIOSSimulator.a */; };
 		AAFB0B8215E70FB10091600C /* ui_advanced.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFB0B8115E70FB10091600C /* ui_advanced.m */; };
+		C720173E260E44DA9D2B4B22 /* libPods-loopy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8039E7904742A0BB2B821E /* libPods-loopy.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1500,6 +1502,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B8039E7904742A0BB2B821E /* libPods-loopy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-loopy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BFF66AE8DDA482DB32784A6 /* Pods-loopy.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loopy.xcconfig"; path = "Pods/Pods-loopy.xcconfig"; sourceTree = "<group>"; };
 		28052EE4EDAE4D3598062EF0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CAB845A1815ECEB00790B5F /* SZLinkDialogView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZLinkDialogView.h; sourceTree = "<group>"; };
 		2CAB845B1815ECEB00790B5F /* SZLinkDialogView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZLinkDialogView.m; sourceTree = "<group>"; };
@@ -2496,6 +2500,7 @@
 			files = (
 				AA3BC36F158E7F170073AD50 /* libSocialize-noarc.a in Frameworks */,
 				AA0085C1158D2EFC00480399 /* Foundation.framework in Frameworks */,
+				0F29C2D0B5034A2AB80E13CB /* libPods-loopy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2567,6 +2572,7 @@
 			files = (
 				AA081873159046670046D661 /* libSocialize-noarc-profiling.a in Frameworks */,
 				AAB5E525159044F900D3EBDF /* Foundation.framework in Frameworks */,
+				C720173E260E44DA9D2B4B22 /* libPods-loopy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2628,6 +2634,7 @@
 				AA008593158D2B1100480399 /* Frameworks */,
 				AA008591158D2B1100480399 /* Products */,
 				591BC9DD5AC34F3A94039250 /* Pods.xcconfig */,
+				1BFF66AE8DDA482DB32784A6 /* Pods-loopy.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2661,6 +2668,7 @@
 				4870478017EEF94B008D5741 /* XCTest.framework */,
 				487047AF17EEFA90008D5741 /* SenTestingKit.framework */,
 				28052EE4EDAE4D3598062EF0 /* libPods.a */,
+				1B8039E7904742A0BB2B821E /* libPods-loopy.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -4221,6 +4229,7 @@
 				AA0085BE158D2EFC00480399 /* CopyFiles */,
 				AA1C1C09158EF34800A763CA /* Headers */,
 				2CB3CE3B186CA2AD000B3CF3 /* Resources */,
+				83C4196420054D2DBE3AC38C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -4323,6 +4332,7 @@
 				AAB5E523159044F900D3EBDF /* Frameworks */,
 				AAB5E526159044F900D3EBDF /* CopyFiles */,
 				AAB5E527159044F900D3EBDF /* Headers */,
+				604C9AAAEA4C4C1A83655E8F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -5087,6 +5097,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		604C9AAAEA4C4C1A83655E8F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-loopy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7F9BE1B1ECE643D7ABBB74D5 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -5100,6 +5125,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		83C4196420054D2DBE3AC38C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-loopy-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		978025C3261D4A458E54C275 /* Check Pods Manifest.lock */ = {
@@ -6125,7 +6165,7 @@
 		};
 		AA0085CA158D2EFC00480399 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 591BC9DD5AC34F3A94039250 /* Pods.xcconfig */;
+			baseConfigurationReference = 1BFF66AE8DDA482DB32784A6 /* Pods-loopy.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/Socialize.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -6155,7 +6195,7 @@
 		};
 		AA0085CB158D2EFC00480399 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 591BC9DD5AC34F3A94039250 /* Pods.xcconfig */;
+			baseConfigurationReference = 1BFF66AE8DDA482DB32784A6 /* Pods-loopy.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/Socialize.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -6172,6 +6212,7 @@
 					"$(inherited)",
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-all_load",
@@ -6417,7 +6458,7 @@
 		};
 		AAB5E54D159044F900D3EBDF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 591BC9DD5AC34F3A94039250 /* Pods.xcconfig */;
+			baseConfigurationReference = 1BFF66AE8DDA482DB32784A6 /* Pods-loopy.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/Socialize.dst;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -6447,7 +6488,7 @@
 		};
 		AAB5E54E159044F900D3EBDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 591BC9DD5AC34F3A94039250 /* Pods.xcconfig */;
+			baseConfigurationReference = 1BFF66AE8DDA482DB32784A6 /* Pods-loopy.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/Socialize.dst;
 				FRAMEWORK_SEARCH_PATHS = (

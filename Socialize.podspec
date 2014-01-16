@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
-  # s.framework  = 'SomeFramework'
+  s.framework  = 'SystemConfiguration'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
   # s.library   = 'iconv'
